@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(image/bg.jpg);
+    background-size: cover;
+    overflow: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+::placeholder{
+    color: #fff;
+    font-size: 12px;
+
+}
+.form-area-un {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    height: 500px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, .5);
+    padding: 40px;
+}
+.form-area-un h3{
+    margin: 0;
+    padding: 0 0 20px;
+    font-weight: bold;
+    color: #fff;
+}
+.form-area-un p{
+    margin: 5px 0;
+    font-weight: bold;
+    color: #fff;
+}
+.form-area-un input, .form-area-un select {
+    position: relative;
+    max-width: 100%;
+    margin: 0 0 10px 0;
+    height: 25px;
+    width: 100%;
+}
+.form-area-un input[type=text],
+.form-area-un input[type=password]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    height: 40px;
+    font-size: 18px;
+    display: 16px;
+
+}
+.form-area-un select{
+    height: 42px;
+    margin-top: 20px;
+    padding: 10px 0;
+}
+.form-area-un input[type="submit"]{
+    height: 50px;
+    background-color: tomato;
+    font-weight: bold;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+}
+.form-area-un input[type="submit"]:hover{
+    color: #fff;
+}
+.form-area-un a{
+    margin: 10px 0 5px 0;
+    color: #fff;
+}
